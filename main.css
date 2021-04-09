@@ -1,4 +1,4 @@
-/* quick reset so all our padding is the right size */
+
 * {
   box-sizing: border-box;
   font-weight: 300;
@@ -6,7 +6,6 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* add some spacing */
 body          {
   background: #a7aaad;
   padding-bottom: 30px;
@@ -14,7 +13,6 @@ body          {
   margin: 0 auto;
 }
 
-/* limit the width and center */
 .container   {
   background: #f2384f;
   padding-bottom: 30px;
