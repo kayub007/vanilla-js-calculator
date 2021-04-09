@@ -1,0 +1,73 @@
+/* quick reset so all our padding is the right size */
+* {
+  box-sizing: border-box;
+  font-weight: 300;
+  line-height: 1.3;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* add some spacing */
+body          {
+  background: #a7aaad;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+/* limit the width and center */
+.container   {
+  background: #f2384f;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.calculator   {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.calculator-screen {
+  background-color: #222222;
+  color: #fff;
+  font-size: 40px;
+  padding: 0.5em 0.75em;
+  text-align: right;
+  overflow-x: auto;
+}
+
+button  {
+  background-color: transparent;
+  padding: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+  border-width: thin;
+}
+
+.calculator-btns {
+  border: none;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.zero-btn {
+  grid-column: span 3;
+  background-color: #f7c858;
+}
+
+.equal-btn {
+  background: #28D060;
+  grid-row: span 2;
+}
+
+.operator-btn, .clear-btn, .decimal-btn {
+  background-color: #a7aaad;
+}
+
+.is-depressed{
+  background-color: slategray;
+}
